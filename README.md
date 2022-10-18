@@ -1,5 +1,5 @@
 # mu_eta_data_plot
-Plotting mu-eta modified gravity models against data
+Plotting mu-eta modified gravity models against Planck data
 
 ![MG models with Planck TT and PhiPhi](plots/test_models.png)
 
@@ -8,6 +8,7 @@ If you already have [MGCAMB](https://github.com/sfu-cosmo/MGCAMB) installed, you
 - Either install palettable (`conda install palettable`) or comment out the corresponding import in `src/make_plot.py`
 - Change `mgcamb_dir` in `src/make_plot.py` to the appropriate directory
 - Run `python src/make_plot.py`
+- If you have already run the models you want and just need to fiddle with the plots, set `make_runs = False`
 
 ## Current caveats
 - I have mixed data releases (PR2 for TT and PR3 for PhiPhi)
