@@ -17,7 +17,7 @@ If you already have [MGCAMB](https://github.com/sfu-cosmo/MGCAMB) installed, you
   (probably there are some CAMB params which could be set better)
 
 ## Installing MGCAMB
-I was able to install MGCAMB using this list of conda packages:
+I was able to install MGCAMB using this list of conda packages from `conda-forge`:
 
 `make python ipython compilers cython numpy matplotlib nose nose-parameterized parameterized`
 
